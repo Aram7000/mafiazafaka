@@ -1,0 +1,62 @@
+* {
+    outline-color: #000000;
+    box-sizing: border-box;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url("./assets/background.jpg");
+    background-size: cover;
+    min-height: 100vh;
+}
+
+button, input {
+    transition-duration: 0.1s;
+}
+
+button.xb {
+    background-color: #aa2200;
+    color: #ffffff;
+}
+
+button.xb:hover {
+    box-shadow: inset 0 0 10px 1px #000000;
+    background-color: #992200;
+}
+
+button.xb:active {
+    box-shadow: inset 0 0 20px 1px #551100;
+    background-color: #aa2200;
+    font-size: 100%;
+}
+
+input.xb {
+    background-color: #eeeeee;
+    width: 50vw;
+}
+
+input::placeholder {
+    text-align: center;
+}
+
+.player {
+    margin: 5px 0;
+    padding: 10px;
+    color: #ffffff;
+}
+
+.black {
+    background-image: linear-gradient(90deg, #000000, #000000, transparent);
+} 
+
+.red {
+    background-image: linear-gradient(90deg, #aa2200, #aa2200, transparent);
+}
+
+.error {
+    background-color: #ff8877;
+    text-align: center;
+    padding: 10px;
+}

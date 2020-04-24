@@ -1,0 +1,181 @@
+* {
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    user-select: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.aic {
+    align-items: center;
+}
+
+.aie {
+    align-items: flex-end;
+}
+
+.jca {
+    justify-content: space-around;
+}
+
+.jcb {
+    justify-content: space-between;
+}
+
+.jce {
+    justify-content: flex-end;
+}
+
+.jcs {
+    justify-content: flex-start;
+}
+
+.jcc {
+    justify-content: center;
+}
+
+.p10 {
+    padding: 10px;
+}
+
+.p20 {
+    padding: 20px;
+}
+
+.p30 {
+    padding: 30px;
+}
+
+.prl10 {
+    padding: 0 10px;
+}
+.prl20 {
+    padding: 0 20px;
+}
+.prl30 {
+    padding: 0 30px;
+}
+
+.b10 {
+    border-radius: 10px;
+}
+
+.b20 {
+    border-radius: 20px;
+}
+
+.b50 {
+    border-radius: 50%;
+}
+
+.m10 {
+    margin: 10px;
+}
+
+.m20 {
+    margin: 20px;
+}
+
+.mlr10 {
+    margin: 0 10px;
+}
+
+.mlr20 {
+    margin: 0 20px;
+}
+
+.mtb10 {
+    margin: 10px 0;
+}
+
+.mtb20 {
+    margin: 20px 0;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.w50 {
+    width: 50%;
+}
+
+.h100vh {
+    height: 100vh;
+}
+
+.h100 {
+    height: 100%;
+}
+
+.oxh {
+    overflow-x: hidden;
+}
+
+.oh {
+    overflow: hidden;
+}
+
+.posf {
+    position: fixed;
+}
+
+.posa {
+    position: absolute;
+}
+
+.posr {
+    position: relative;
+}
+
+.txt {
+    font-family: sans-serif;
+    text-align: justify;
+    font-size: 100%;
+}
+
+.block {
+    display: block;
+}
+
+.tac {
+    text-align: center;
+}
+
+.lstd {
+    list-style-type: decimal;
+}
+
+.lstn {
+    list-style-type: none;
+}
+
+.font100 {
+    font-size: 100%;
+}
+
+.font200 {
+    font-size: 200%;
+}
+
+.font150 {
+    font-size: 150%;
+}
